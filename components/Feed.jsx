@@ -27,6 +27,8 @@ const Feed = () => {
     fetchPosts();
   }, []);
 
+  console.log("posts", posts);
+
   const handleSearchChange = (e) => {};
   return (
     <section className="feed">
